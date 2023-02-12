@@ -4,6 +4,9 @@ This is a frontendmentor challenge, to make a multi-form: <br>
 https://www.frontendmentor.io/challenges/multistep-form-YVAnSdqQBJ <br>
 Made this challenge with React + TypeScript (using Vite).
 
+## Live Demo
+https://fantastic-mandazi-1c0fa1.netlify.app
+
 ## Project Setup
 
 ### clone this project and then:
