@@ -1,0 +1,45 @@
+.add-on-wrapper {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 16px;
+
+  h3 {
+    font-size: 14px;
+  }
+  p {
+    font-size: 14px;
+  }
+  .add-on-container {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    padding: 14px;
+    border: 1px solid var(--purple-blue);
+    border-radius: 12px;
+
+    .checkbox {
+      cursor: pointer;
+      width: 16px;
+      height: 16px;
+    }
+
+    .add-on-description {
+      flex-grow: 1;
+      margin-left: 12px;
+    }
+  }
+}
+
+@media (max-width: 440px) {
+  .add-on-wrapper {
+    .add-on-container {
+      padding: 12px;
+
+      p {
+        font-size: 12px;
+      }
+    }
+  }
+}

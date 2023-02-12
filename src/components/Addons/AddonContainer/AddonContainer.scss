@@ -1,0 +1,38 @@
+.add-on-container {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  padding: 14px;
+  border: 1px solid var(--purple-blue);
+  border-radius: 12px;
+
+  .checkbox {
+    cursor: pointer;
+    width: 16px;
+    height: 16px;
+    accent-color: var(--purple-blue);
+  }
+
+  .add-on-description {
+    flex-grow: 1;
+    margin-left: 12px;
+
+    h3 {
+      font-weight: 700;
+      color: var(--marine-blue);
+    }
+
+    p {
+      color: var(--cool-gray);
+    }
+  }
+
+  .add-on-price {
+    font-weight: 700;
+    color: var(--purple-blue);
+  }
+}
+
+.add-on-container.active {
+  background-color: var(--magnolia);
+}

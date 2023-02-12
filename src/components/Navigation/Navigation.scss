@@ -1,0 +1,44 @@
+.navigation-wrapper {
+  height: 100%;
+  width: 260px;
+  border-radius: 16px;
+  padding: 40px;
+  background-image: url("../../assets/images/bg-sidebar-desktop.svg");
+
+  .step {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    gap: 20px;
+    color: white;
+
+    .step-number {
+      width: 35px;
+      height: 35px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border: 1px solid white;
+      border-radius: 50%;
+    }
+
+    .step-number.active {
+      color: black;
+      background-color: hsl(206, 94%, 87%);
+    }
+
+    .step-info {
+      .step-info-title {
+        font-size: 12px;
+        font-weight: 200;
+        color: var(--light-gray);
+      }
+
+      .step-info-content {
+        font-size: 14px;
+        letter-spacing: 1px;
+        font-weight: 700;
+      }
+    }
+  }
+}

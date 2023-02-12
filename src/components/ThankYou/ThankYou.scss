@@ -1,0 +1,14 @@
+.thank-you-wrapper {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+
+  p {
+    font-size: 14px;
+    text-align: center;
+    color: var(--cool-gray);
+  }
+}
